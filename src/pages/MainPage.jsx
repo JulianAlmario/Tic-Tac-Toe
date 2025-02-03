@@ -26,7 +26,6 @@ function MainPage() {
       {finish &&( <span className={` text-center text-5xl ${color}`} >{win}</span>)}
       </section>
     
-      {/* <Tablero/> */}
       <Board/>
     </main>
   );
